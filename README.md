@@ -37,6 +37,6 @@ In this part, I improved the design using CSS and made the website responsive fo
 3. Navigate through the About and Contact pages.  
 
 ## Student Info
-- Name: *[Replace with your full name]*  
-- Course: *[Replace with your course name]*  
+- Name: *[Dimpho Ramaswe]*  
+- Course: *[Web Development]*  
 - Assignment: *Part 2 – Chat App*
