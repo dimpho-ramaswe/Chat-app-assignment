@@ -41,13 +41,13 @@ In this part, I improved the design using CSS and made the website responsive fo
 ## Screenshots  
 
 *Desktop View*  
-![Desktop View](./Screenshot -desktop.png)  
+![Desktop View](./Screenshot-desktop.png)  
 
 *Tablet View*  
-![Tablet View](./Screenshot -tablet.png)  
+![Tablet View](./Screenshot-tablet.png)  
 
 *Mobile View*  
-![Mobile View](./Screenshot -mobile.png)  
+![Mobile View](./Screenshot-mobile.png)  
 
 ---
 
@@ -59,6 +59,6 @@ In this part, I improved the design using CSS and made the website responsive fo
 ---
 
 ## Student Info
-- *Name:* *[Dimpho Ramawe]*  
+- *Name:* *[Dimpho Ramaswe]*  
 - *Student Number:* *[ST10464062]*  
 - *Course/Module:* *[Web Development]*
