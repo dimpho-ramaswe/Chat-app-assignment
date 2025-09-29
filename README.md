@@ -47,7 +47,7 @@ In this part, I improved the design using CSS and made the website responsive fo
 ![Tablet View](./Screenshot-tablet.png)  
 
 *Mobile View*  
-![Mobile View](./Screenshot-mobile.png)  
+![Mobile View](Screenshot%20-mobile.png)
 
 ---
 
