@@ -1,0 +1,238 @@
+/* ===== Reset & Base Styles ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Aptos', sans-serif;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+body {
+    background-color: #fffafc; /* soft pink base */
+    color: #333;
+    overflow-x: hidden;
+}
+
+/* ===== Header ===== */
+header {
+    background: linear-gradient(135deg, #ffb6c1, #ff69b4); /* feedback: gradient for wow factor */
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    border-bottom: 4px solid #ffd700; /* playful gold accent */
+}
+
+/* ===== Puppy House "Ears" ===== */
+header::before,
+header::after {
+    content: "";
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background: #ffb6c1;
+    top: -35px;
+    border-radius: 50% 50% 0 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.15); /* soft shadow for depth */
+}
+
+header::before {
+    left: 60px;
+    transform: rotate(-25deg);
+}
+
+header::after {
+    right: 60px;
+    transform: rotate(25deg);
+}
+
+/* ===== Logo ===== */
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    animation: bounceIn 1.2s ease; /* fun entrance */
+}
+
+.logo img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+}
+
+.logo span {
+    font-size: 2.7rem;
+    font-weight: 800;
+    letter-spacing: 1px;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2); /* creative depth */
+}
+
+.logo span .pink {
+    color: #ff69b4;
+}
+.logo span .blue {
+    color: #87cefa;
+}
+.logo span .yellow {
+    color: #ffd700;
+}
+
+/* ===== Navigation ===== */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    padding: 10px 16px;
+    font-size: 1.1rem;
+    border-radius: 20px; /* pill buttons */
+    transition: all 0.3s ease;
+    background: rgba(255,255,255,0.15); /* subtle frosted look */
+}
+
+nav a:hover {
+    background-color: #fff;
+    color: #ff69b4;
+    transform: scale(1.1) rotate(-3deg); /* playful hover */
+}
+
+/* ===== Main Section ===== */
+main {
+    padding: 60px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    animation: fadeIn 1.5s ease;
+}
+
+/* ===== Cards / Puppy Items ===== */
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+    width: 320px;
+    border: 2px solid #ffb6c1; /* cute outline */
+}
+
+.card:hover {
+    transform: translateY(-8px) rotate(1deg);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+}
+
+.card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-bottom: 2px solid #ffd700;
+}
+
+.card-content {
+    padding: 25px;
+    background: linear-gradient(180deg, #fff 70%, #fffafc 100%);
+}
+
+.card-content h2 {
+    font-size: 1.6rem;
+    margin-bottom: 12px;
+    color: #ff69b4;
+}
+
+.card-content p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* ===== Buttons ===== */
+button, .btn {
+    background: linear-gradient(135deg, #87cefa, #ffd700);
+    color: #333;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: 700;
+    transition: all 0.3s;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+}
+
+button:hover, .btn:hover {
+    background: linear-gradient(135deg, #ff69b4, #ffd700);
+    transform: scale(1.1);
+}
+
+/* ===== Footer ===== */
+footer {
+    background: linear-gradient(135deg, #ffb6c1, #ff69b4);
+    color: #333;
+    text-align: center;
+    padding: 25px 0;
+    margin-top: 60px;
+    font-size: 1rem;
+    border-top: 4px solid #ffd700;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* ===== Animations ===== */
+@keyframes bounceIn {
+    0% { transform: scale(0.5); opacity: 0; }
+    60% { transform: scale(1.2); opacity: 1; }
+    100% { transform: scale(1); }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* ===== Responsive ===== */
+@media (min-width: 768px) {
+    .cards-container {
+        gap: 25px;
+    }
+    .card {
+        flex: 1 1 calc(33% - 25px);
+    }
+}
+
+@media (max-width: 500px) {
+    header::before,
+    header::after {
+        width: 50px;
+        height: 50px;
+        top: -25px;
+    }
+    .logo span {
+        font-size: 2rem;
+    }
+}
