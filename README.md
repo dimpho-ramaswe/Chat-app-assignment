@@ -5,7 +5,7 @@ This is my submission for *Part 2 of the Chat App project*.
 In this part, I improved the design using CSS and made the website responsive for desktop, tablet, and mobile screens.
 
 ## Features
-- Multiple pages: Home, About, Contact  
+- Multiple pages: Home, About, Contact, Gallery, Services  
 - Linked style.css across all pages  
 - Responsive layout using Flexbox/Grid  
 - Media queries for desktop, tablet, and mobile  
@@ -15,26 +15,37 @@ In this part, I improved the design using CSS and made the website responsive fo
 - index.html  
 - about.html  
 - contact.html  
+- gallery.html  
+- services.html  
 - style.css  
 - images/ (website images)  
 - screenshots/ (assignment screenshots)  
 - README.md  
 
+## Changelog
+*Improvements from Part 1 → Part 2*
+- Added style.css and applied styling to all HTML pages  
+- Improved page layout with Flexbox/Grid  
+- Added responsiveness with media queries for tablet and mobile  
+- Included additional pages: Gallery and Services  
+- Uploaded screenshots showing responsive views  
+- General improvements to colors, spacing, and fonts as well as creativity
+
 ## Screenshots
 
 *Desktop View*  
-![Desktop Screenshot](screenshots/screenshot-desktop.png)
+![Desktop Screenshot]
 
 *Tablet View*  
-![Tablet Screenshot](screenshots/screenshot-tablet.png)
+![Tablet Screenshot]
 
 *Mobile View*  
-![Mobile Screenshot](screenshots/screenshot-mobile.png)
+![Mobile Screenshot]
 
 ## How to run
 1. Download or clone this repository.  
 2. Open index.html in any browser (Chrome, Firefox, Edge, etc).  
-3. Navigate through the About and Contact pages.  
+3. Use the navigation menu to view the About, Contact, Gallery, and Services pages.  
 
 ## Student Info
 - Name: *[Dimpho Ramaswe]*  
