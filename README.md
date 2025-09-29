@@ -41,7 +41,7 @@ In this part, I improved the design using CSS and made the website responsive fo
 ## Screenshots  
 
 *Desktop View*  
-![Desktop View](./Screenshot-desktop.png)  
+![Desktop View](Screenshot%20-desktop.png)
 
 *Tablet View*  
 ![Tablet View](./Screenshot-tablet.png)  
