@@ -49,5 +49,6 @@ In this part, I improved the design using CSS and made the website responsive fo
 
 ## Student Info
 - Name: *[Dimpho Ramaswe]*  
-- Course: *[Web Development]*  
+- Course: *[Web Development]*
+- Student Number: *[ST10464062]*
 - Assignment: *Part 2 – Chat App*
