@@ -36,9 +36,9 @@ In this part, I improved the design using CSS and made the website responsive fo
 - Uploaded screenshots showing responsive views
 - General improvements to colors, spacing, fonts, and creativity
 
-Changelog (README.md — entries for Part 3)
-	•	2025-11-03 — Part 3 added: Implemented interactive form validation and AJAX-based contact submission. Updated SEO meta tags and added sitemap.xml and robots.txt. Added lightbox gallery and search filter on events page.
-	•	2025-11-03 — Corrections from Part 2: Fixed broken image paths on events.html, corrected contact form field names, improved header tags for accessibility and SEO.
+ ## Changelog (README.md — entries for Part 3)
+	-	2025-11-03 — Part 3 added: Implemented interactive form validation and AJAX-based contact submission. Updated SEO meta tags and 		added sitemap.xml and robots.txt. Added lightbox gallery and search filter on events page.
+	- 	2025-11-03 — Corrections from Part 2: Fixed broken image paths on events.html, corrected contact form field names, improved 			header tags for accessibility and SEO.
 
 ---
 
